@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* pointer style  */
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 4px solid tomato;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5ms;
+    z-index: -1;
+}
+/* btn style  */
+.same{
+    margin: 0 10px;
+    padding: 15px 30px;
+    background-color: aqua;
+    border: 2px solid red;
+}
+/* img part  */
+.main img{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* background img color class__js */
+.main2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(100, 148, 237, 0.473);
+}
